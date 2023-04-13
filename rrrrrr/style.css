@@ -1,0 +1,205 @@
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+
+nav{
+    display: block;
+}
+
+ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    background-color: rgb(105, 105, 102);
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border: 0;
+    animation-name: btn;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes btn {
+    from {background-color: rgb(105, 105, 102);}
+    to {
+      background-color: rgb(91, 103, 170);
+    }
+}
+body {
+    padding: 3% 5% 0% 5%;
+ background-color: rgb(201, 201, 201);
+}
+    
+
+
+li {
+    border: solid 1px rgb(212, 212, 212);
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 1px 1px 1px 1px grey;
+    font-size: 1.8rem;}
+
+
+
+li:hover {
+    background-color: black;
+    color: white;
+    border: solid black;
+}
+
+/* . {
+   ;
+    width :40% ;
+    height: 30%;
+    box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);;
+    padding: 0% 5% 0% 5%;
+} */
+
+.box-top {
+    box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 0% 5% 0% 5%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0% 5%;
+    padding: 1.5rem;
+    height: 40%;
+
+
+}
+
+.top-box {
+    box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 0% 5% 0% 5%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 40%;
+    padding: 1.5rem;
+    margin: 0% 5% 0% 5%;
+ width: auto;
+}
+
+.box {
+    text-align: center; box-shadow:0 1px 5px rgba(104, 104, 104, 0.8);
+     padding: 0% 2% 0% 2%;
+     /* margin: 1% 1% 1% 0%; */
+     font-size: 1rem;
+     width: 20%;
+}
+
+.ph {
+    background-image: url(https://3dnews.ru/assets/external/illustrations/2022/12/13/1078803/photo2a9af3aa95c.jpg);
+
+    background-color: black;
+    opacity: 1 black;
+   padding: 10% 30%;
+    grid-area: showcase;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 90%;
+   /*--------Animation---------*/
+    }
+
+h1 {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    height: 3.5%;
+   margin: 1% 1% 1% 0%;
+   color: white;
+   padding: 1%;
+}
+
+.boxes {
+    display: flex;
+   justify-content: space-between;
+   margin: 1% 0.3% 1% 0% ;
+}
+
+@media screen and (max-width:300px)  { 
+  .boxes {
+     display: flex;
+     flex-direction: column;
+  }
+}
+
+.btm {
+    background:rgb(37, 37, 37);
+    color: white;
+    padding: 10%;
+}
+
+.info {
+    padding:3%;
+}
+
+
+
+img {
+  width: 49%;
+}
+
+.prof {
+  width: 49%;
+  display: flex; }
+.troooow {
+    width: 49%;
+  display: flex;
+}
+
+.boss {
+  font-family:
+  }
+
+.box {
+  background-color: rgb(221,221,221);
+}
+
+li {
+  background-color: grey;
+}
+
+.color {
+    color: aliceblue;
+    animation-name: example;
+    animation-duration: 10s;
+   animation-duration: 6s;
+    }
+
+@keyframes example {
+    0%   {color: aliceblue;}
+  25%  {color: rgb(110, 253, 105);}
+  50%  {color: rgb(95, 240, 240);}
+  100% {color: rgb(179, 90, 231);}
+  from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+ 
+
+
+
